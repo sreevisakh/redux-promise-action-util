@@ -1,0 +1,42 @@
+{
+  "name": "redux-promise-action-util",
+  "version": "1.0.0",
+  "description": "Create action object for redux promise middleware ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "build": "babel index.es6.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreevisakh/redux-promise-action-util.git"
+  },
+  "keywords": [
+    "redux",
+    "promise",
+    "pending",
+    "fulfilled",
+    "rejected",
+    "middleware"
+  ],
+  "author": "Sreevisakh <asreevisakh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreevisakh/redux-promise-action.util/issues"
+  },
+  "homepage": "https://github.com/sreevisakh/redux-promise-action.util#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/proposal-export-default-from"
+    ]
+  }
+}
